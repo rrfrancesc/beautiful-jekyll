@@ -58,7 +58,7 @@ author:
   name: Francesc Ràfols
   email: "rrfrancesc@yahoo.es"
   facebook: yourname  # eg. daattali
-  linkedin: Francesc Ràfols Raventós  # eg. daattali
+  linkedin: "https://es.linkedin.com/in/francesc-r%C3%A0fols-ravent%C3%B3s-a3193437"  # eg. daattali
   telephone: +0034666402247   # eg. +14159998888
 
 # Select which links to show in the footer
@@ -77,7 +77,7 @@ footer-links-active:
   instagram: false
   youtube: false
   spotify: false
-  telephone: false
+  telephone: true
   steam: false
   twitch: false
   yelp: false
