@@ -1,8 +1,9 @@
 ---
 layout: post
-title: First post!
+title: Shiny App XL AUTO Optimization
+subtitle: Reinsurance Interactive Tool
 image: /img/hello_world.jpeg
-tags: [random, exciting-stuff]
+tags: [reunsurance, sniny]
 ---
 
 This is my first post, how exciting!
