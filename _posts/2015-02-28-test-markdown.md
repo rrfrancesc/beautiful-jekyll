@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Test markdown
-subtitle: Each post also has a subtitle
+title: Life Portfolio - Reinsurance Optimization
+subtitle: Interactive Resinsurance Tool
 ---
 
-You can write regular [markdown](http://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](http://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
+As a **R-Shiny developer** [shiny](http://shiny.rstudio.com/tutorial/) I've created several apps, some of them are a *powerful interactive tool* to optimize the **Reinsurance** of a Company.
 
-**Here is some bold text**
+**Some images frome this app:**
 
-## Here is a secondary heading
+## Life Reinsurance Optimization
 
 Here's a useless table:
 
