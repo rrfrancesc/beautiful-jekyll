@@ -22,7 +22,7 @@ Here's a useless table:
 
 How about a yummy crepe?
 
-![upsss]("/img/avatar-icon.png")
+![upsss]"/img/avatar-icon.png"
 ![Crepe](http://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
 
 Here's a code chunk:
