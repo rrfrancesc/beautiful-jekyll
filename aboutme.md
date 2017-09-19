@@ -4,7 +4,11 @@ title: About me
 subtitle: Why you'd want to go on a date with me
 ---
 
-Page 1 {data-icon="fa-list"}
+```{r setup, include=FALSE}
+htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+```
+<i class="fa fa-file"></i>
+
 My name is Francesc Rafols. I have the following qualities:
 
 - Actuary
