@@ -8,13 +8,10 @@ subtitle: What I'm doing...
 
 <i class="fa fa-graduation-cap"></i> &nbsp; I studied **Economics** and **Actuarial & Financial Sciences** at the University of Barcelona [(university)](http://ub.edu).
 
-<i class="fa fa-user"></i> &nbsp; I enjoy writing useful & interactve software tools. In the last years I've become an experienced **R** useR and also an expert in **R-Shiny**. 
+<i class="fa fa-user"></i> &nbsp; I enjoy writing useful & interactve software tools. In the last years I've become an experienced **R** useR and also an expert in **R-Shiny** developing. 
 
-My name is Francesc Rafols. I have the following qualities:
-- Actuary
-- Reinsurance
-- R user
-- Shiny developer
+<i class="fa fa-heart"></i> &nbsp; I'm addicted to cycling and travelling as much as I can...
+
 
 What else do you need?
 
