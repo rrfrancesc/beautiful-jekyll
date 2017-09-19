@@ -1,12 +1,12 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: What I'm doing...
 ---
 
 <i class="fa fa-briefcase"></i> &nbsp; Currently I'm working in ERM Risk Management [(ERM)](http://ermgrupo.com) as a **Reinsurance Consultant** and **Reinsurance Broker**. I'm the Head of Reinsurance in the *Credit Andorra Financial Group*. As an **Actuary**, previously I worked in charge of the Technical Area in different Insurance Companies, the last one was Previsora General [(Previsora)](http://previsorageneral.com).
 
-<i class="fa fa-graduation-cap"></i> &nbsp; I studied **Economics** anc **Actuarial Sciences** at the University of Barcelona [(university)](http://ub.edu).
+<i class="fa fa-graduation-cap"></i> &nbsp; I studied **Economics** and **Actuarial & Financial Sciences** at the University of Barcelona [(university)](http://ub.edu).
 
 My name is Francesc Rafols. I have the following qualities:
 - Actuary
