@@ -8,6 +8,8 @@ subtitle: What I'm doing...
 
 <i class="fa fa-graduation-cap"></i> &nbsp; I studied **Economics** and **Actuarial & Financial Sciences** at the University of Barcelona [(university)](http://ub.edu).
 
+<i class="fa fa-code"></i> &nbsp; I enjoy writing useful & interactve software tools. In the last years I've become an experienced **R** useR and also an expert in **R-Shiny**. 
+
 My name is Francesc Rafols. I have the following qualities:
 - Actuary
 - Reinsurance
