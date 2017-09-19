@@ -4,7 +4,11 @@ title: About me
 subtitle: Why you'd want to go on a date with me
 ---
 
-<i class="fa fa-file"></i> &nbsp; My name is Francesc Rafols. I have the following qualities:
+<i class="fa fa-briefcase"></i> &nbsp; Currently I'm working in ERM [ERM](http://ermgrupo.com) as a **Reinsurance Consultant** and **Reinsurance Broker**. I'm the Head of Reinsurance in the *Credit Andorra Financial Group*. As an **Actuary**, previously I worked in charge of the Technical Area in different Insurance Companies, tle lasta one Previsora General [Previsora](http://previsorageneral.com).
+
+
+
+My name is Francesc Rafols. I have the following qualities:
 - Actuary
 - Reinsurance
 - R user
@@ -14,4 +18,4 @@ What else do you need?
 
 ### my history
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+To be honest, I'm having some trouble remembering right now, so why don't you just watch  and it will answer **all** your questions.
