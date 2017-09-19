@@ -4,7 +4,8 @@ title: About me
 subtitle: Why you'd want to go on a date with me
 ---
 
- {data-icon="fa-list"} My name is Francesc Rafols. I have the following qualities:
+Page 1 {data-icon="fa-list"}
+My name is Francesc Rafols. I have the following qualities:
 
 - Actuary
 - Reinsurance
