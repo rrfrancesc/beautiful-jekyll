@@ -6,7 +6,7 @@ subtitle: Why you'd want to go on a date with me
 
 
 
-htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+
 
 <i class="fa fa-file"></i>
 
