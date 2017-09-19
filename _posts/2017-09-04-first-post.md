@@ -2,7 +2,7 @@
 layout: post
 title: Shiny App XL AUTO Optimization
 subtitle: Reinsurance Interactive Tool
-image: /img/hello_world.jpeg
+image: /img/car-crash.jpg
 tags: [reinsurance, shiny]
 ---
 
