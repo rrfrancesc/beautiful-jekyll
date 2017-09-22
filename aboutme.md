@@ -11,6 +11,11 @@ subtitle: What I'm doing...
 <i class="fa fa-user"></i> &nbsp; I enjoy writing useful & interactive software tools. In the last years I've become an experienced **R** *useR* and also an expert in **R-Shiny** developing. 
 
 <i class="fa fa-area-chart"></i> &nbsp; I am interested in:
+<ul>
+    <li>line 1</li>
+    <li>line 2</li>
+</ul>
+
 * Predictive Modeling
 * Pricing
 * Extreme Value Analysis
