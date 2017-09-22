@@ -28,7 +28,7 @@ navbar-links:
     - Learn R Studio: "https://www.rstudio.com/online-learning/"
     - Learn Shiny: "https://shiny.rstudio.com/tutorial/"
     - Learn Mardown: "https://www.markdowntutorial.com/"
-  Shiny Apps: "aboutshiny"  
+  Shiny Apps: "aboutshiny.md"  
   Author's home: "http://rrfrancesc.github.io"
 
 # Image to show in the navigation bar - image must be a square (width = height)
