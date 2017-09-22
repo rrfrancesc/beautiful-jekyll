@@ -6,4 +6,19 @@ image: /img/car-crash.jpg
 tags: [reinsurance, shiny]
 ---
 
-This is my first post, how exciting!
+Since a couple of years I am using the shiny package in R for interactive data visualization, as a **R-Shiny developer** [(shiny)](http://shiny.rstudio.com/tutorial/) I've created several apps, some of them are a *powerful interactive tool* to optimize the **Reinsurance** of a Company.
+
+This app wants to be an useful interactive tool for the Companies in order to optimize their reinsurance XL structures.   
+
+### Life Reinsurance Optimization
+**Some images from this app:**
+
+#### Shiny Dashboard to get dynamic and interactive simulations...
+![life1](http://i63.tinypic.com/286u7vd.png)
+* * *
+#### Analytics...
+![life2](http://i65.tinypic.com/25khdw7.png)
+* * *
+#### Feel free to contact me if you need any help for your Company...
+![life4](http://i64.tinypic.com/2vl2zuu.png)
+* * *
