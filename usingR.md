@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Shiny
+title: Using R
 subtitle: Designing optimal interactive applications...
 ---
 
