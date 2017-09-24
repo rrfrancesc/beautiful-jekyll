@@ -2,6 +2,7 @@
 layout: page
 title: Using R
 subtitle: Designing optimal interactive applications...
+image: /img/R.jpg
 ---
 
  <br>
