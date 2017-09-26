@@ -11,6 +11,6 @@ At *ERM Re*, I'm doing a lot of reinsurance consulting work in **R**. Here you c
  
 ### 3D Analysis: Working with data visualization in 3D...
 ![3d](http://i64.tinypic.com/ngubye.png)
-<img src="http://i63.tinypic.com/25tiaad.png" width="475">
+<img src="http://i63.tinypic.com/25tiaad.png" width="500">
 
-![](http://i63.tinypic.com/25tiaad.png)
+
