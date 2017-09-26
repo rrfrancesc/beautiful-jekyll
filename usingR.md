@@ -10,3 +10,6 @@ subtitle: Designing optimal interactive applications...
 
 ### 3D Analysis:
 Working with data visualization in 3D...
+http://i64.tinypic.com/ngubye.png
+http://i63.tinypic.com/25tiaad.png
+
