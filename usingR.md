@@ -13,5 +13,5 @@ At *ERM Re*, I'm doing a lot of reinsurance consulting work in **R**. Here you c
 ![3d](http://i64.tinypic.com/ngubye.png)
 <center>
 ![](http://i63.tinypic.com/25tiaad.png){ width=50% }
-<center>
+</center>
 
