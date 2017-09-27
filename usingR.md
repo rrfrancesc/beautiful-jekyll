@@ -22,8 +22,10 @@ Building a 3D graphic using **R** and the **rgl package**. RGL is a 3D graphics 
 
 <img src="http://i63.tinypic.com/2nvt6vk.png" width="600">
 <br>
+
 <img src="http://i67.tinypic.com/111809e.png" width="600">
 <br>
+
 <img src="http://i64.tinypic.com/xpc5c6.png" width="600">
 * * *
 <br>
