@@ -30,3 +30,13 @@ Building a 3D graphic using **R** and the **rgl package**. RGL is a 3D graphics 
 <img src="http://i64.tinypic.com/xpc5c6.png" width="600">
 * * *
 <br>
+
+### STOP LOSS Reinsurance Structure: Computing risk premium with R...
+
+<img src="http://i63.tinypic.com/2cfwr9x.png" width="600">
+<br>
+
+<img src="http://i63.tinypic.com/flg0mg.png" width="600">
+<br>
+
+
