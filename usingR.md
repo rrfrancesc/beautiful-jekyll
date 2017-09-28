@@ -18,8 +18,7 @@ Building a 3D graphic using **R** and the **rgl package**. RGL is a 3D graphics 
 * * *
 <br>
  
-### Spatial Analysis: 
-### Leaflet package for map data visualization...
+### Spatial Analysis: leaflet package for map data visualization...
 **Leaflet** package lets you create interactive maps right from the R console. It provides a simple and fast way to host *interactive maps* online in R, requiring only a few lines of code for a basic web map. Interactive panning and zooming allows for an explorative view on your pinpointed location and it has therefore a great integration in a workflow with *Shiny*.
 
 <img src="http://i63.tinypic.com/2nvt6vk.png" width="600">
@@ -32,7 +31,7 @@ Building a 3D graphic using **R** and the **rgl package**. RGL is a 3D graphics 
 * * *
 <br>
 
-### STOP LOSS Reinsurance Structure: Computing risk premium...
+### STOP LOSS Reinsurance: Computing risk premium...
 *Parametric Model* using a **LOG NORMAL distribution** to fit the empiric data. Their two parameters are the mean and the sd.
 
 Function to compute the reinsurance pure premium:
