@@ -32,11 +32,13 @@ Building a 3D graphic using **R** and the **rgl package**. RGL is a 3D graphics 
 <br>
 
 ### STOP LOSS Reinsurance Structure: Computing risk premium with R...
-
-<img src="http://i67.tinypic.com/2w24lg7.png" width="500">
+```{r}
+E <- function (yinf,ysup,par1,par2,premium) {as.numeric(integrate(function(x) (x-yinf) * premium * dlnorm(x,par1,par2), lower=yinf,upper=ysup)$value + (1-plnorm(ysup,par1,par2)) * (ysup-yinf) * premium)}
+```
+<img src="http://i67.tinypic.com/2w24lg7.png" width="600">
 <br>
 
-<img src="http://i68.tinypic.com/16gal2d.jpg" width="500">
+<img src="http://i68.tinypic.com/16gal2d.jpg" width="600">
 <br>
 
 
