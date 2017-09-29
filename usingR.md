@@ -8,7 +8,7 @@ subtitle: Designing optimal interactive applications...
  
 At *ERM Re*, I'm doing a lot of reinsurance consulting work in **R**. Here you can see some examples of the projects developed.
 <br>
-
+<br>
 
 ## 3D Analysis: 
 ### Working with data visualization in 3D...
