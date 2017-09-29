@@ -33,7 +33,8 @@ Building a 3D graphic using **R** and the **rgl package**. RGL is a 3D graphics 
 * * *
 <br>
 
-### STOP LOSS Reinsurance: Computing risk premium...
+## STOP LOSS Reinsurance: 
+### Pricing Computing risk premium...
 *Parametric Model* using a **LOG NORMAL distribution** to fit the empiric data. Their two parameters are the mean and the sd.
 
 Function to compute the reinsurance pure premium:
