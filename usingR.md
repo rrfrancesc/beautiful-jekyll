@@ -5,7 +5,8 @@ subtitle: Designing optimal interactive applications...
 ---
 
 <br>
- 
+
+<img src=http://i67.tinypic.com/2e5vabq.png width="100">
 At *ERM Re*, I'm doing a lot of reinsurance consulting work in **R**. Here you can see some examples of the projects developed.
 <br>
 
