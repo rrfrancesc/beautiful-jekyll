@@ -19,6 +19,7 @@ subtitle: What I'm doing...
 * Machine Learning
 * Cross Validation
 * Bootstrap Techniques
+* Random Forest
 * MonteCarlo Simulations
  
  <br>
