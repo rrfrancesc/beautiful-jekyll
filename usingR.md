@@ -51,4 +51,8 @@ E <- function (yinf,ysup,par1,par2,premium) {as.numeric(integrate(function(x) (x
 * * *
 <br>
 
+## Claims Reserving: 
+### Using the ChainLadder Package in R...
+*Mack ChainLadder* ...
+
 
