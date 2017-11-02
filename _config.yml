@@ -24,11 +24,12 @@ description: My professional website!
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
+  Computing with R: "computingR"
+  Data Visualization with R: "visualizationR"  
   Resources:
     - Learn R Studio: "https://www.rstudio.com/online-learning/"
     - Learn Shiny: "https://shiny.rstudio.com/tutorial/"
-    - Learn Mardown: "https://www.markdowntutorial.com/"
-  Using R: "usingR"  
+    - Learn Mardown: "https://www.markdowntutorial.com/"  
   Author's home: "http://rrfrancesc.github.io"
 
 # Image to show in the navigation bar - image must be a square (width = height)
