@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Data Visualization with R
+title: R for Data Visualization
 subtitle: Designing interactive applications for Data Visualization...
 ---
 
