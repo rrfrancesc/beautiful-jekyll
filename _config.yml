@@ -24,8 +24,8 @@ description: My professional website!
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
-  Computing with R: "computingR"
-  Data Visualization with R: "visualizationR"  
+  R - Computing: "computingR"
+  R - Data Visualization: "visualizationR"  
   Resources:
     - Learn R Studio: "https://www.rstudio.com/online-learning/"
     - Learn Shiny: "https://shiny.rstudio.com/tutorial/"
