@@ -8,6 +8,8 @@ subtitle: Powerful tool for insurance analytics...
 
 <img src="http://i67.tinypic.com/2e5vabq.png" width="150">
 
+I began using **R** for data visualisation, and, over time, it has become integral to my workflow. It’s just so flexible, and the more you get immersed in the R world, the more you realise what you can do with it.
+
 At *ERM Re* [(ERM)](http://ermgrupo.com), I'm doing a lot of reinsurance consulting work in **R**. Here you can see some examples of the projects developed.
 
 <br>
