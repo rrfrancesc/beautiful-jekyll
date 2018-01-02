@@ -23,7 +23,7 @@ subtitle: What I'm doing...
 * MonteCarlo Simulations
  
  <br>
-In addition:
+<i class="fa fa-line-chart"></i> &nbsp; In addition:
 * Excel Dashboards / Advanced Excel
 * VBA, including custom functions and manipulating other MS Office software from within Excel 
 
