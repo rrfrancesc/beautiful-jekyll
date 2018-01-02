@@ -27,6 +27,7 @@ subtitle: What I'm doing...
 * Excel Dashboards / Advanced Excel
 * VBA, including custom functions and manipulating other MS Office software from within Excel 
 
+ <br>
 ### Contact:
 At ERM Re, I'm doing a lot of reinsurance consulting work in **R** and **Shiny**, so feel free to get in touch if you want to discuss potential projects for your Company.
 
