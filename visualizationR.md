@@ -13,6 +13,7 @@ At *ERM Re* [(ERM)](http://ermgrupo.com), I'm doing a lot of reinsurance consult
 
 <br>
 
+
 ## 3D Analysis: 
 ### Working with data visualization in 3D...
 Building a 3D graphic using **R** and the **rgl package**. RGL is a 3D graphics package that produces a real-time interactive 3D plot. It allows to interactively rotate, zoom the graphics and select regions.
@@ -45,5 +46,13 @@ The **Plotly package** is one of the best R tools to create beautiful and intera
 <br>
 
 <img src="http://i64.tinypic.com/xpc5c6.png" width="600">
+* * *
+<br>
+
+## Heat Maps: 
+### ggplot2 package for data visualization 3 ...
+A **heatmap** is a literal way of visualizing a table of numbers, where you substitute the numbers with colored cells. So, it is basically a table that has colors in place of numbers. Colors correspond to the level of the measurement. It’s very useful for finding highs and lows and sometimes, patterns.
+
+<img src="http://i64.tinypic.com/2d6wpc8.png" width="600">
 * * *
 <br>
