@@ -54,10 +54,12 @@ The **Plotly package** is one of the best R tools to create beautiful and intera
 A **heatmap** is a literal way of visualizing a table of numbers, where you substitute the numbers with colored cells. So, it is basically a table that has colors in place of numbers. Colors correspond to the level of the measurement. It’s very useful for finding highs and lows and sometimes, patterns.
 
 In this example, it shows the expected XL Premium of a Reinsurance Treaty, depending on Priority and Capacity.
-<img src="http://i63.tinypic.com/15xvlkz.png" width="600">
+
+<img src="http://i63.tinypic.com/15xvlkz.png" width="700">
 <br>
 
 Another example, with Loss Ratios - Health Insurance.
-<img src="http://i64.tinypic.com/2d6wpc8.png" width="1000">
+
+<img src="http://i64.tinypic.com/2d6wpc8.png" width="900">
 * * *
 <br>
