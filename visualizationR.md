@@ -60,6 +60,6 @@ In this example, it shows the expected XL Premium of a Reinsurance Treaty, depen
 
 Another example, with Loss Ratios - Health Insurance.
 
-<img src="http://i64.tinypic.com/2d6wpc8.png" width="1050">
+<img src="http://i64.tinypic.com/2d6wpc8.png" width="1150">
 * * *
 <br>
