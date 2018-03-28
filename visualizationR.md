@@ -58,7 +58,7 @@ In this example, it shows the expected XL Premium of a Reinsurance Treaty, depen
 <img src="http://i63.tinypic.com/15xvlkz.png" width="700">
 <br>
 
-Another example, with Loss Ratios - Health Insurance.
+Another example, with frequency of use by Product, Sex and Age - Health Insurance.
 
 <img src="http://i64.tinypic.com/2d6wpc8.png" width="1150">
 * * *
