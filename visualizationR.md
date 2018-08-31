@@ -31,6 +31,9 @@ The **Plotly package** is one of the best R tools to create beautiful and intera
 <img src="http://i67.tinypic.com/15ewck2.png" width="600">
 <br>
 
+<img src="http://i63.tinypic.com/2klhqd.png" width="700">
+<br>
+
 <img src="http://i68.tinypic.com/24c5nbo.png" width="600">
 * * *
 <br>
