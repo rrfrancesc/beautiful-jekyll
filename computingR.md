@@ -49,8 +49,9 @@ The *ReIns package* contains implementations of:
 - EVT estimators and graphical methods adapted for censored and/or truncated data.
 - Splicing of mixed Erlang distributions with EVT distributions (Pareto, GPD).
 - Value-at-Risk (VaR), Conditional Tail Expectation (CTE) and excess-loss premium estimates.
+
 It's very useful for fitting claims distributions. One usually wants a fit for the whole distribution. ReIns package propose the splicing of a Mixed Erlang (ME) distribution for the body and an extreme value distribution, i.e. Pareto or GPD, for the tail. Also, it provides some tools to see how well the spliced distribution fits the data:
 
-<img src="http://i65.tinypic.com/9tg9y8.png" width="660">
+<img src="http://i65.tinypic.com/9tg9y8.png" width="800">
 * * *
 <br>
