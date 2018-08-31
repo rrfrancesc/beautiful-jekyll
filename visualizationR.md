@@ -39,7 +39,7 @@ The **Plotly package** is one of the best R tools to create beautiful and intera
 ### Leaflet package for map data visualization...
 **Leaflet** package lets you create interactive maps right from the R console. It provides a simple and fast way to host *interactive maps* online in R, requiring only a few lines of code for a basic web map. Interactive panning and zooming allows for an explorative view on your pinpointed location and it has therefore a great integration in a workflow with *Shiny*.
 
-<img src="http://i63.tinypic.com/3094syh.png" width="600">
+<img src="http://i63.tinypic.com/3094syh.png" width="700">
 <br>
 
 <img src="http://i67.tinypic.com/111809e.png" width="600">
