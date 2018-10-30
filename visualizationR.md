@@ -65,4 +65,18 @@ Another example, with frequency of use by Product, Sex and Age - Health Insuranc
 
 <img src="http://i68.tinypic.com/29qmxc4.png" width="900">
 * * *
+
+<br>
+
+## Visual Results with gauge() function: 
+### Nice and easy way to visualize your results in a Shiny App...
+*flexdashboard* package provides this function to easily **compare** reactive results.
+
+Function used:
+```{r}
+gauge(round(table_AA()$Por_Rtdo_Reas_1[1],2), min=-5, max=20, symbol = '%', label= "Prog_Act.", 
+sectors = gaugeSectors(success = c(7.5, 20), warning = c(2.5, 7.5), danger = c(-5, 2.5)))
+```
+<img src="http://i67.tinypic.com/2w24lg7.png" width="600">
+* * *
 <br>
