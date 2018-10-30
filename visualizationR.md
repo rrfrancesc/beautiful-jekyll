@@ -77,6 +77,6 @@ Function used:
 gauge(round(table_AA()$Por_Rtdo_Reas_1[1],2), min=-5, max=20, symbol = '%', label= "Prog_Act.", 
 sectors = gaugeSectors(success = c(7.5, 20), warning = c(2.5, 7.5), danger = c(-5, 2.5)))
 ```
-<img src="http://i67.tinypic.com/2w24lg7.png" width="600">
+<img src="http://i64.tinypic.com/6rq2xl.png" width="600">
 * * *
 <br>
