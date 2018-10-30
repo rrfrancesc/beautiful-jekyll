@@ -70,7 +70,7 @@ Another example, with frequency of use by Product, Sex and Age - Health Insuranc
 
 ## Visual Results with gauge() function: 
 ### Nice and easy way to visualize your results in a Shiny App...
-*flexdashboard* package provides this function to easily **compare** reactive results.
+**flexdashboard** package provides this function to easily *compare reactive results*. A gauge displays a numeric value on a meter that runs between specified minimum and maximum values. Only allows custom colored sectors (e.g. "success", "warning", "danger"). By default all values are colored using the "success" theme color.
 
 Function used:
 ```{r}
