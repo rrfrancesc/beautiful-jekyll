@@ -6,6 +6,10 @@ image: /img/health1.jpg
 tags: [reinsurance, R, rmarkdown, shiny]
 ---
 
+**R Markdown** provides an authoring framework for data science. You can use a single R Markdown file to save and execute code, and also to generate high quality reports that can be shared with an audience.
+
+**R Markdown documents** are fully reproducible and support static and dynamic output formats.
+
 A new APP using the Shiny package in R for interactive data analytics and visualization. This App helps the insurance company to perform an analyse of his **Health Portfolio** and then helps to optimize his reinsurance structure and select the best options to transfer the risk. So, we can easily compare XL structures with Proportional ones...  
 
 As a **R-Shiny developer** [(shiny)](http://shiny.rstudio.com/tutorial/) I've created several apps, some of them are a *powerful interactive tool* to optimize the **Reinsurance** of a Company.
