@@ -2,7 +2,7 @@
 layout: post
 title: R Markdown Document
 subtitle: Insurance Analitycs & Reinsurance Optimization
-image: /img/health1.jpg
+image: /img/rmarkdown0.png
 tags: [reinsurance, R, rmarkdown, shiny]
 ---
 
@@ -22,7 +22,7 @@ This app wants to be an useful interactive tool for the Companies in order to op
 **Some images from this app:**
 * * *
 #### Reinsurance Analytics...
-![health3](http://i67.tinypic.com/214cv1k.png)
+![rmarkdown1](http://i63.tinypic.com/35iu3nr.png)
 * * *
 #### Feel free to contact me if you need any help for your Company...
-![health4](http://i67.tinypic.com/21ahlrr.png)
+![rmarkdown2](http://i64.tinypic.com/10cvhbb.png)
