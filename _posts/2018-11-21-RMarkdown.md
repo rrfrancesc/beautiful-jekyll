@@ -10,7 +10,7 @@ tags: [reinsurance, R, rmarkdown, shiny]
 
 **R Markdown documents** are fully reproducible and support static and dynamic output formats. Use a productive notebook interface to weave together narrative text and code to produce elegantly formatted output. Use multiple languages including R, Python, and SQL.
 
-It's an easy way to report your R works, where you can show the code if you want, and all kind of ouputs. **R Markdown package** can create diferent kind of documents like HTML, PDF, MS Word,...  So, I strongly recommend using [(R Markdown)](https://rmarkdown.rstudio.com/) as a *powerful tool* for your presentations.
+It's an easy way to report your R works, where you can show the code if you want, and all kind of ouputs. **R Markdown package** can create diferent kind of documents like HTML, PDF, MS Word,...  So, I strongly recommend using [R Markdown](https://rmarkdown.rstudio.com/) as a *powerful tool* for your presentations.
 
 **R Markdown** can generate an interactive document, a new way to build Shiny apps. An interactive document is an R Markdown file that contains Shiny widgets and outputs. You write the report in markdown, and then launch it as an app with the click of a button.
 
