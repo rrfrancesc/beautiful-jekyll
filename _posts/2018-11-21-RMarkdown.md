@@ -16,7 +16,7 @@ So, I strongly recommend using  **R Markdown** [](https://rmarkdown.rstudio.com/
 
 **R Markdown** can generate an interactive document, a new way to build Shiny apps. An interactive document is an R Markdown file that contains Shiny widgets and outputs. You write the report in markdown, and then launch it as an app with the click of a button.
 
-### Reporting XL Motor Reinsurance Optimization
+### Reporting XL Motor Reinsurance Optimization...
 **Some images from this Document:**
 * * *
 #### HTML document output...
