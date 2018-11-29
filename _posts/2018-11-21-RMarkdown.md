@@ -2,7 +2,7 @@
 layout: post
 title: R Markdown Document
 subtitle: Insurance Analitycs & Reinsurance Optimization
-image: /img/rmarkdown1.png
+image: /img/rmarkdown0.png
 tags: [reinsurance, R, rmarkdown, shiny]
 ---
 
