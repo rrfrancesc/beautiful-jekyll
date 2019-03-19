@@ -2,24 +2,28 @@
 layout: post
 title: Profit Commission in Proportional Treaties
 subtitle: An interactive App to calculate any Reinsurance Profit Commission...
-image: /img/PC6.png
+image: /img/profit.jpg
 tags: [reinsurance, R, rmarkdown, shiny]
 ---
 
-After interacting with a **Shiny application** and getting it certain state, your users may want to download a report in HTML or PDF format.
-You can easily add the ability to generate a report with **knitr and rmarkdown** at the click of a button.
+On the face of it, a PC is quite simple; it rewards the Reinsured for successfully creating a profit for the reinsurers by rebating an agreed percentage of the profit the treaty has generated during the year.
 
-This app uses the rmarkdown package to compile a report template to PDF/HTML/Word, which we can download by clicking a button.
+But, we need to deal with the fact that individual policies ceded to the treaty may still be running when the PC calculation is made and there are bound to be outstanding claims that may take months or even years to settle.
 
-It's an easy way to report your Shiny analysis, generating a document with the selected outputs.
+The hardest item deals with the question of the *carry-forward of deficits from previous years*.  Contracts will specify for how many years any deficits may be carried forward.  The most common examples are 3, 5 or to extinction. So, if the total income minus the total outgo results in a negative figure, that figure will be carried forward to the profit commission calculation of the next underwriting year (note: not the next calculation that adjusts the current year) PC.  The deficit will be carried forward for the next 3 or 5 underwriting years, or until it is cancelled out by subsequent profitable years, whichever happens first.
+
+This APP provides **an easy way to compute difficult PC, with many years and many reinsurers**, with different conditions for each reinsurer and year.
 
 **Some images from this tool:**
 * * *
 #### Shiny App...
-![shiny1](http://i65.tinypic.com/in511k.png)
+![shiny1](http://i67.tinypic.com/2w3x7yg.png)
 * * *
-#### HTML document output generated with R Markdown...
-![rmarkdown2](http://i65.tinypic.com/9uuts1.png)
+#### Results Visualization...
+![rshiny2](http://i65.tinypic.com/2638xow.png)
 
-#### VIDEO Shiny App...
+#### PC Account...
+![rshiny3](http://i66.tinypic.com/295rgnl.png)
+
+#### VIDEO to see how it works...
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QI6P_lrFMo0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
