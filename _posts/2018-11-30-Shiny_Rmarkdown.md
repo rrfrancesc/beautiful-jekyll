@@ -20,6 +20,3 @@ It's an easy way to report your Shiny analysis, generating a document with the s
 * * *
 #### HTML document output generated with R Markdown...
 ![rmarkdown2](http://i65.tinypic.com/9uuts1.png)
-
-#### VIDEO Shiny App...
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QI6P_lrFMo0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
