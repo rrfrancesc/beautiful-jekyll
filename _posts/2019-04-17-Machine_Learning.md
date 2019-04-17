@@ -26,6 +26,7 @@ After I fit the model, let's take a look at the confusion matrix to see how well
 ![rf2](http://i68.tinypic.com/2nizhxj.png)
 
 And in the next plot, we can study the importance of each feature in the prediction model:
+
 ![rf4](http://i64.tinypic.com/acfk45.png)
 
 ***
