@@ -59,8 +59,8 @@ avatar: "/img/avatar-icon.png"
 author:
   name: Francesc Ràfols
   email: "rrfrancesc@yahoo.es"
-  youtube: "/watch?v=wxd7-DOvBY4"
-  linkedin: "/francesc-r%C3%A0fols-ravent%C3%B3s-a3193437/?originalSubdomain=es"  # eg. daattali
+  youtube: "watch?v=wxd7-DOvBY4"
+  linkedin: "francesc-r%C3%A0fols-ravent%C3%B3s-a3193437/?originalSubdomain=es"  # eg. daattali
   telephone: +0034666402247   # eg. +14159998888
 
 # Select which links to show in the footer
