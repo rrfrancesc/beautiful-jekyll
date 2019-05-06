@@ -59,7 +59,8 @@ avatar: "/img/avatar-icon.png"
 author:
   name: Francesc Ràfols
   email: "rrfrancesc@yahoo.es"
-  linkedin: francesc ràfols raventós  # eg. daattali
+  youtube: "https://www.youtube.com/watch?v=wxd7-DOvBY4"
+  linkedin: "https://www.linkedin.com/in/francesc-r%C3%A0fols-ravent%C3%B3s-a3193437/?originalSubdomain=es"  # eg. daattali
   telephone: +0034666402247   # eg. +14159998888
 
 # Select which links to show in the footer
@@ -76,7 +77,7 @@ footer-links-active:
   stackoverflow: false
   snapchat: false
   instagram: false
-  youtube: false
+  youtube: true
   spotify: false
   telephone: true
   steam: false
@@ -89,6 +90,7 @@ share-links-active:
   facebook: true
   google: false
   linkedin: true
+  youtube: true
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
