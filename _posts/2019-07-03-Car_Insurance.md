@@ -6,28 +6,26 @@ image: /img/car.jpg
 tags: [R,shiny,insurance]
 ---
 
-I build predictive models about **policy renewal** using Logistic Regression and Random Forest.  
-If a company interacts with every single customer, the cost would be too much. Focusing retention efforts on a small subset of high risk policies is a much more effective strategy.
+A new APP using the Shiny package in R for interactive data analytics and visualization. This App helps the insurance company to perform an analyse of his **Health Portfolio** and then helps to optimize his reinsurance structure and select the best options to transfer the risk. So, we can easily compare XL structures with Proportional ones...  
 
-In this post, I’m going to focus on **Random Forest as a classification method**. Unlike *logistic regression*, random forest is better at fitting non-linear data. It can also work well even if there are correlated features, which can be a problem for interpreting logistic regression.
+As a **R-Shiny developer** [(shiny)](http://shiny.rstudio.com/tutorial/) I've created several apps, some of them are a *powerful interactive tool* to optimize the **Reinsurance** of a Company.
 
-**Random forest** uses *multiple decision trees* to make predictions. *Single decision trees* on their own can be very effective at learning non-linear relationships (low bias, but high variance). Here is an exemple of a simple tree with 3 only features:
+I've been working with packages **ggplot2** and **plotly** for an optimal data visualization. 
 
-![rf1](http://i68.tinypic.com/28wds8j.png)
+This app wants to be an useful interactive tool for the Companies in order to optimize their Proportional structures. A solution to obtain a fully-comprehensive of your risks using different fitting techniques based on predictive models and *MonteCarlo simulations*.
 
-Due to their high variance, they can tend to over-fit. Random forest reduces this variance by averaging many trees (at the sacrifice of a slight increase in the bias).
+### HEALTH Reinsurance Optimization
+**Some images from this app:**
 
-In this case, I fit the model to 14 features. So by default, **randomForest() R function** will set mtry = sqrt(14) = 3.74 rounded down = 3. Also, by default random forest generates 500 trees, but 200 would be enough as errors rate do not decrease as we can see in next plot:
-
-![rf3](http://i68.tinypic.com/nwms1h.png)
-
-After I fit the model, let's take a look at the confusion matrix to see how well the model made predictions on the validation set. The accuracy is pretty good!
-
-![rf2](http://i68.tinypic.com/2nizhxj.png)
-
-And in the next plot, we can study the importance of each feature in the prediction model:
-
-![rf4](http://i64.tinypic.com/acfk45.png)
-
-***
+#### First, working with the data...
+![health1](http://i68.tinypic.com/20a5tzc.png)
+<br>
+![health2](http://i68.tinypic.com/2jeqkcx.png)
+* * *
+#### Reinsurance Analytics...
+![health3](http://i67.tinypic.com/214cv1k.png)
+* * *
+#### Feel free to contact me if you need any help for your Company...
+![health4](http://i67.tinypic.com/21ahlrr.png)
+* * *
 
