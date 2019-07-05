@@ -6,26 +6,27 @@ image: /img/car.jpg
 tags: [R,shiny,insurance]
 ---
 
-A new APP using the Shiny package in R for interactive data analytics and visualization. This App helps the insurance company to perform an analyse of his **Health Portfolio** and then helps to optimize his reinsurance structure and select the best options to transfer the risk. So, we can easily compare XL structures with Proportional ones...  
+A new APP using the Shiny package in R for interactive data analytics and visualization. This App can help any insurance company to visualizace its position in the car insurance market. The goal here is optimize your pricing skills.  
 
 As a **R-Shiny developer** [(shiny)](http://shiny.rstudio.com/tutorial/) I've created several apps, some of them are a *powerful interactive tool* to optimize the **Reinsurance** of a Company.
 
-I've been working with packages **ggplot2** and **plotly** for an optimal data visualization. 
+I've been working with the **tidyverse** packages for data manipulation and using **ggplot2** and **plotly** for an optimal data visualization. 
 
-This app wants to be an useful interactive tool for the Companies in order to optimize their Proportional structures. A solution to obtain a fully-comprehensive of your risks using different fitting techniques based on predictive models and *MonteCarlo simulations*.
+This app wants to be an useful interactive tool for the Companies in order to optimize their **Pricing Models**. 
 
-### HEALTH Reinsurance Optimization
+### CAR Insurance Pricing Optimization
 **Some images from this app:**
 
-#### First, working with the data...
-![health1](http://i68.tinypic.com/20a5tzc.png)
-<br>
-![health2](http://i68.tinypic.com/2jeqkcx.png)
+#### First, filter your data...
+![car1](http://i67.tinypic.com/zyddax.png)
 * * *
-#### Reinsurance Analytics...
-![health3](http://i67.tinypic.com/214cv1k.png)
+#### Results Visualization...
+![car2](http://i65.tinypic.com/k9h0t0.png)
+<br>
+![car3](http://i63.tinypic.com/vxg389.png)
+<br>
+![car4](http://i66.tinypic.com/25pr5fq.png)
 * * *
 #### Feel free to contact me if you need any help for your Company...
-![health4](http://i67.tinypic.com/21ahlrr.png)
-* * *
+
 
