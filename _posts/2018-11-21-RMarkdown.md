@@ -18,7 +18,7 @@ It's an easy way to report your R works, where you can show the code if you want
 **Some images from this Document:**
 * * *
 #### HTML document output...
-![rmarkdown1](http://i63.tinypic.com/35iu3nr.png)
+![rmarkdown1](https://i.ibb.co/M70ZrpX/rmarkdown1.png)
 * * *
 #### Feel free to contact me if you need any help for your Company...
-![rmarkdown2](http://i64.tinypic.com/10cvhbb.png)
+![rmarkdown2](https://i.ibb.co/56C362q/rmarkdown2.png)
