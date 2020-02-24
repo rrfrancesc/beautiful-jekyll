@@ -18,14 +18,17 @@ This app wants to be an useful interactive tool for the Companies in order to op
 **Some images from this app:**
 
 #### First, filter your data...
-![car1](http://i67.tinypic.com/zyddax.png)
+![car1](https://i.ibb.co/T0WhQXR/Snapshot-19-07-03-10-41-57.png)
 * * *
 #### Results Visualization...
-![car2](http://i65.tinypic.com/k9h0t0.png)
+![car2](https://i.ibb.co/4sHrR1j/Snapshot-19-07-03-10-43-45.png)
 <br>
-![car3](http://i63.tinypic.com/vxg389.png)
+![car3](https://i.ibb.co/kmz4kh8/Snapshot-19-07-03-10-46-14.png)
 <br>
-![car4](http://i66.tinypic.com/25pr5fq.png)
+![car4](https://i.ibb.co/sQfFxZt/Snapshot-19-07-03-10-47-45.png)
+<br>
+![car5](https://i.ibb.co/WK54LZ4/Snapshot-19-07-03-10-48-07.png)
+
 * * *
 
 #### VIDEO to see how it works...
