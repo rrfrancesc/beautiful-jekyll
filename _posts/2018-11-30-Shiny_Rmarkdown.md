@@ -16,7 +16,7 @@ It's an easy way to report your Shiny analysis, generating a document with the s
 **Some images from this tool:**
 * * *
 #### Shiny App...
-![shiny1](http://i65.tinypic.com/in511k.png)
+![shiny1](https://i.ibb.co/BzvycHw/rmarkdown3.png)
 * * *
 #### HTML document output generated with R Markdown...
-![rmarkdown2](http://i65.tinypic.com/9uuts1.png)
+![rmarkdown2](https://i.ibb.co/PYs9w0Z/rmarkdown4.png)
