@@ -6,9 +6,9 @@ subtitle: Designing interactive applications for Data Visualization...
 
 <br>
 
-<img src="http://i67.tinypic.com/2e5vabq.png" width="150">
+<img src="https://i.ibb.co/p0sQxV1/R.png" width="150">
 
-At *ERM Re* [(ERM)](http://ermgrupo.com), I'm doing a lot of reinsurance consulting work in **R**. Here you can see some examples of the projects developed.
+At *ERSM Re* [(ERSM)](http://ersmgrupo.com), I'm doing a lot of reinsurance consulting work in **R**. Here you can see some examples of the projects developed.
 <br>
 
 <br>
@@ -18,8 +18,8 @@ At *ERM Re* [(ERM)](http://ermgrupo.com), I'm doing a lot of reinsurance consult
 ### Working with data visualization in 3D...
 Building a 3D graphic using **R** and the **rgl package**. RGL is a 3D graphics package that produces a real-time interactive 3D plot. It allows to interactively rotate, zoom the graphics and select regions.
 
-<img src="http://i65.tinypic.com/9s7xwj.png" width="600">
-<img src="http://i63.tinypic.com/25tiaad.png" width="600">
+<img src="https://i.ibb.co/120F46H/3d.png" width="600">
+<img src="https://i.ibb.co/JFgvcFs/3d2.png" width="600">
 * * *
 <br>
 
@@ -28,13 +28,13 @@ Building a 3D graphic using **R** and the **rgl package**. RGL is a 3D graphics 
 The **Plotly package** is one of the best R tools to create beautiful and interactive data visualizations.
 **Plotly’s R package** is very useful to make interactive heatmaps, geographic map visualizations, and sliders. And it's very easy to turn static ggplot2 visualizations into interactive Plotly visualizations with just one line of code. Here, some examples:
 
-<img src="http://i67.tinypic.com/15ewck2.png" width="600">
+<img src="https://i.ibb.co/XLYL8Cd/Plotly1.png" width="600">
 <br>
 
-<img src="http://i63.tinypic.com/2klhqd.png" width="700">
+<img src="https://i.ibb.co/WWHQqCm/Plotly2.png" width="700">
 <br>
 
-<img src="http://i68.tinypic.com/24c5nbo.png" width="600">
+<img src="https://i.ibb.co/LC7rHZh/Plotly3.png" width="600">
 * * *
 <br>
 
@@ -42,13 +42,13 @@ The **Plotly package** is one of the best R tools to create beautiful and intera
 ### Leaflet package for map data visualization...
 **Leaflet** package lets you create interactive maps right from the R console. It provides a simple and fast way to host *interactive maps* online in R, requiring only a few lines of code for a basic web map. Interactive panning and zooming allows for an explorative view on your pinpointed location and it has therefore a great integration in a workflow with *Shiny*.
 
-<img src="http://i63.tinypic.com/3094syh.png" width="700">
+<img src="https://i.ibb.co/k2TgC60/spatial-1.png" width="700">
 <br>
 
-<img src="http://i67.tinypic.com/111809e.png" width="600">
+<img src="https://i.ibb.co/6YZpJTP/spatial-3.png" width="600">
 <br>
 
-<img src="http://i64.tinypic.com/xpc5c6.png" width="600">
+<img src="https://i.ibb.co/HTPnTQh/spatial-4.png" width="600">
 * * *
 <br>
 
@@ -58,12 +58,12 @@ A **heatmap** is a literal way of visualizing a table of numbers, where you subs
 
 In this example, it shows the expected XL Premium of a Reinsurance Treaty, depending on Priority and Capacity.
 
-<img src="http://i63.tinypic.com/15xvlkz.png" width="700">
+<img src="https://i.ibb.co/N6b2Zg5/Heat-Map.png" width="700">
 <br>
 
 Another example, with frequency of use by Product, Sex and Age - Health Insurance.
 
-<img src="http://i68.tinypic.com/29qmxc4.png" width="900">
+<img src="https://i.ibb.co/YyHLDWf/Heat-Map-2.png" width="900">
 * * *
 
 <br>
@@ -77,6 +77,6 @@ Function used:
 gauge(round(table_AA()$Por_Rtdo_Reas_1[1],2), min=-5, max=20, symbol = '%', label= "Prog_Act.", 
 sectors = gaugeSectors(success = c(7.5, 20), warning = c(2.5, 7.5), danger = c(-5, 2.5)))
 ```
-<img src="http://i64.tinypic.com/6rq2xl.png" width="900">
+<img src="https://i.ibb.co/938MgZF/gauge-1.png" width="900">
 * * *
 <br>
