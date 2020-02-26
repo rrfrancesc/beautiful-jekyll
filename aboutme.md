@@ -4,7 +4,7 @@ title: About me
 subtitle: What I'm doing...
 ---
 
-<i class="fa fa-briefcase"></i> &nbsp; Currently, Head of Reinsurance in *Credit Andorra Financial Group*. I'm working in Barcelona at ERSM Insurance Brokers [(ERSM)](http://ersmgrupo.com) as a **Reinsurance Consultant** and **Reinsurance Broker**. As **Actuary**, previously I worked in charge of the Technical Area in different Insurance Companies, the last one was Previsora General [(Previsora)](http://previsorageneral.com). My first steps as actuary where in VidaCaixa [(laCaixa)](http://vidacaixa.es).
+<i class="fa fa-briefcase"></i> &nbsp; Currently, Head of Reinsurance in *Credit Andorra Financial Group*. I'm working in Barcelona at ERSM Insurance Brokers [(ERSM)](http://ersmgrupo.com) as a **Reinsurance Consultant** and **Reinsurance Broker**. As **Actuary**, previously I worked in charge of the Technical Area in different Insurance Companies, the last one was Previsora General [(Previsora)](http://previsorageneral.com). My first steps as actuary were in VidaCaixa [(laCaixa)](http://vidacaixa.es).
 
 <i class="fa fa-graduation-cap"></i> &nbsp; I studied **Economics** and **Actuarial & Financial Sciences** at the University of Barcelona [(university)](http://ub.edu).
 
