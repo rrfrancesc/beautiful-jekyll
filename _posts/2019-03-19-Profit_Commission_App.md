@@ -17,13 +17,17 @@ This APP provides **an easy way to compute difficult PC, with many years and man
 **Some images from this tool:**
 * * *
 #### Shiny App...
-![shiny1](http://i67.tinypic.com/2w3x7yg.png)
+![shiny1](https://i.ibb.co/hLjDPNh/Capt-1.png)
 * * *
+#### Loading Data...
+![rshiny2](https://i.ibb.co/bs0pxS5/Capt-2.png)
+
 #### Results Visualization...
-![rshiny2](http://i65.tinypic.com/2638xow.png)
+![rshiny3](https://i.ibb.co/VS1YNzK/Capt-3.png)
+![rshiny4](https://i.ibb.co/TPqJCY1/Capt-4.png)
 
 #### PC Account...
-![rshiny3](http://i66.tinypic.com/295rgnl.png)
+![rshiny5](https://i.ibb.co/rsTg008/Capt-6.png)
 
 #### VIDEO to see how it works...
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QI6P_lrFMo0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
