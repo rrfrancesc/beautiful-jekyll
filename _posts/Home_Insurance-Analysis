@@ -6,13 +6,13 @@ image: /img/home.jpg
 tags: [R,shiny,insurance]
 ---
 
-A new APP using the Shiny package in R for interactive data analytics and visualization. This App can help any insurance company to visualizace its position in the Property insurance market. The goal here is optimize your pricing skills.  
+A new APP using the Shiny package in R for interactive data analytics and visualization. This software can help any insurance Company to visualizace its position in the Property insurance market. The goal here is optimize your pricing skills.  
 
 As a **R-Shiny developer** [(shiny)](http://shiny.rstudio.com/tutorial/) I've created several apps, some of them are a *powerful interactive tool* to optimize the **Reinsurance** of a Company.
 
 I've been working with the **tidyverse** packages for data manipulation and using **ggplot2** and **plotly** for an optimal data visualization. 
 
-This app wants to be an useful interactive tool for the Companies in order to optimize their **Pricing Models**. 
+This App wants to be an useful interactive tool for the Companies in order to optimize their **Pricing Models**. 
 
 ### HOME Insurance Pricing Optimization
 **Some images from this app:**
