@@ -32,6 +32,6 @@ This App wants to be an useful interactive tool for the Companies in order to op
 * * *
 
 #### VIDEO to see how it works...
-<iframe width="560" height="315" src="https://youtu.be/q7kIB9zKeik" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://youtube/q7kIB9zKeik" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### Feel free to contact me if you need any help for your Company...
