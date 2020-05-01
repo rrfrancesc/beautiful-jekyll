@@ -14,12 +14,12 @@ At *ERSM Re* [(ERSM)](http://ersmgrupo.com), I'm doing a lot of reinsurance cons
 <br>
 
 
-## geom_area() in ggplot2: 
+## geom_area() from ggplot2: 
 ### Using an area plot to study evolution along time... 
 
-With the **purrr** package one can make n plots at the same time with data coming from a list with n elements. 
+With the **purrr** package one can make n plots at the same time with data coming from a list with n elements.  
 
-**geom_area** is great to compare positions along time. In this case, I'm plotting the percentage of quotes that an insurance company is the cheapest along time. 
+From *ggplot2*, **geom_area** is great to compare positions along time. In this case, I'm plotting the percentage of quotes that an insurance company is the cheapest along time; and I'm plotting at the same time as many plots as types of covers, with the **map** function from *purrr*. 
 
 ```{r}
 # plot <- purrr::map2(data_4$data, data_4$Cobertura, .f = function(x,y) { data.frame(x) %>%
