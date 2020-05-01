@@ -4,6 +4,16 @@ title: Visualization in R
 subtitle: Designing interactive applications for Data Visualization...
 ---
 
+<style>
+.main-container {
+    max-width: 1100px;
+    margin-left: 150px;
+    margin-right: auto;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+</style>
+
 <br>
 
 <img src="https://i.ibb.co/p0sQxV1/R.png" width="150">
@@ -18,6 +28,7 @@ At *ERSM Re* [(ERSM)](http://ersmgrupo.com), I'm doing a lot of reinsurance cons
 ### Using an area plot to study evolution along time... 
 
 With the **purrr** package one can make n plots at the same time with data coming from a list with n elements. 
+
 **geom_area** is great to compare positions along time. In this case, I'm plotting the percentage of quotes that an insurance company is the cheapest along time. 
 
 ```{r}
