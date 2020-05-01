@@ -15,8 +15,11 @@ At *ERSM Re* [(ERSM)](http://ersmgrupo.com), I'm doing a lot of reinsurance cons
 
 
 ## geom_area() in ggplot2: 
-### Using an area plot to study evolution along time...
-Building a 3D graphic using **R** and the **rgl package**. RGL is a 3D graphics package that produces a real-time interactive 3D plot. 
+### Using an area plot to study evolution along time... 
+
+With the **purrr** package one can make n plots at the same time with data coming from a list with n elements.
+**geom_area** is great to compare positions along time. In this case, I'm plotting the percentage of quotes that an insurance company is the cheaptes along time. 
+
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 # plot <- purrr::map2(data_4$data, data_4$Cobertura, .f = function(x,y) { data.frame(x) %>%
     dplyr::count(Fecha_Estudio, Top_1_Cheap_Cia) %>% 
@@ -30,10 +33,11 @@ Building a 3D graphic using **R** and the **rgl package**. RGL is a 3D graphics 
     ggplot2::scale_y_continuous(labels=percent_format()) + 
     ggplot2::scale_x_date(breaks = unique(data_3$Fecha_Estudio)) + 
     ggplot2::theme(axis.text.x=element_text(colour="gray30",size=9,angle=45, hjust=1)) })
-```
-It allows to interactively rotate, zoom the graphics and select regions.
 
-<img src="https://i.ibb.co/RBcpJPn/Rplot10.png" width="600" height="700">
+# egg::ggarrange(plots=list(plot[[1]],plot[[2]],plot[[3]]), ncol=1)
+```
+
+<img src="https://i.ibb.co/RBcpJPn/Rplot10.png" width="630" height="700">
 * * *
 <br>
 
