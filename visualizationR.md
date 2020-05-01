@@ -16,9 +16,24 @@ At *ERSM Re* [(ERSM)](http://ersmgrupo.com), I'm doing a lot of reinsurance cons
 
 ## geom_area() in ggplot2: 
 ### Using an area plot to study evolution along time...
-Building a 3D graphic using **R** and the **rgl package**. RGL is a 3D graphics package that produces a real-time interactive 3D plot. It allows to interactively rotate, zoom the graphics and select regions.
+Building a 3D graphic using **R** and the **rgl package**. RGL is a 3D graphics package that produces a real-time interactive 3D plot. 
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+# plot <- purrr::map2(data_4$data, data_4$Cobertura, .f = function(x,y) { data.frame(x) %>%
+    dplyr::count(Fecha_Estudio, Top_1_Cheap_Cia) %>% 
+    tidyr::complete(Fecha_Estudio, Top_1_Cheap_Cia, fill=list(n=0) ) %>%
+    dplyr::left_join(data.frame(x) %>% group_by(Fecha_Estudio) %>% dplyr::count(Fecha_Estudio, name="total_mes"), by="Fecha_Estudio") %>%  
+    dplyr::mutate(percent=n/total_mes) %>%
+    ggplot2::ggplot(aes(Fecha_Estudio, percent, fill=Top_1_Cheap_Cia)) + 
+    ggplot2::geom_area(color="gray90") +
+    scale_fill_viridis(discrete=TRUE) + 
+    ggplot2::labs(title=y, x="Mes", y="Porcentaje", subtitle="Porcentaje de cotizaciones más económicas") + 
+    ggplot2::scale_y_continuous(labels=percent_format()) + 
+    ggplot2::scale_x_date(breaks = unique(data_3$Fecha_Estudio)) + 
+    ggplot2::theme(axis.text.x=element_text(colour="gray30",size=9,angle=45, hjust=1)) })
+```
+It allows to interactively rotate, zoom the graphics and select regions.
 
-<img src="https://i.ibb.co/RBcpJPn/Rplot10.png" width="550" height="600">
+<img src="https://i.ibb.co/RBcpJPn/Rplot10.png" width="600" height="700">
 * * *
 <br>
 
