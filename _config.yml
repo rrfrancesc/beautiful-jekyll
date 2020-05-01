@@ -1,15 +1,5 @@
 # --- General options --- #
 
-<style>
-.main-container {
-    max-width: 1200px;
-    margin-left: 150px;
-    margin-right: auto;
-    margin-top: 12px;
-    margin-bottom: 20px;
-}
-</style>
-
 # url is the full website URL
 # baseurl is the website's URL without the hostname
 
