@@ -14,11 +14,11 @@ At *ERSM Re* [(ERSM)](http://ersmgrupo.com), I'm doing a lot of reinsurance cons
 <br>
 
 
-## geom_map() in ggplot2: 
-### Working with data visualization in 3D...
+## geom_area() in ggplot2: 
+### Using an area plot to study evolution along time...
 Building a 3D graphic using **R** and the **rgl package**. RGL is a 3D graphics package that produces a real-time interactive 3D plot. It allows to interactively rotate, zoom the graphics and select regions.
 
-<img src="https://i.ibb.co/RBcpJPn/Rplot10.png" width="600">
+<img src="https://i.ibb.co/RBcpJPn/Rplot10.png" width="800" height="1000">
 * * *
 <br>
 
