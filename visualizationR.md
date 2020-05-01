@@ -20,7 +20,7 @@ At *ERSM Re* [(ERSM)](http://ersmgrupo.com), I'm doing a lot of reinsurance cons
 With the **purrr** package one can make n plots at the same time with data coming from a list with n elements. 
 **geom_area** is great to compare positions along time. In this case, I'm plotting the percentage of quotes that an insurance company is the cheapest along time. 
 
-```{r, echo=FALSE, warning=FALSE, message=FALSE}
+```{r}
 # plot <- purrr::map2(data_4$data, data_4$Cobertura, .f = function(x,y) { data.frame(x) %>%
     dplyr::count(Fecha_Estudio, Top_1_Cheap_Cia) %>% 
     tidyr::complete(Fecha_Estudio, Top_1_Cheap_Cia, fill=list(n=0) ) %>%
