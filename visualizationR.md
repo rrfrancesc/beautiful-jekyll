@@ -14,6 +14,14 @@ At *ERSM Re* [(ERSM)](http://ersmgrupo.com), I'm doing a lot of reinsurance cons
 <br>
 
 
+## geom_map() in ggplot2: 
+### Working with data visualization in 3D...
+Building a 3D graphic using **R** and the **rgl package**. RGL is a 3D graphics package that produces a real-time interactive 3D plot. It allows to interactively rotate, zoom the graphics and select regions.
+
+<img src="https://i.ibb.co/RBcpJPn/Rplot10.png" width="600">
+* * *
+<br>
+
 ## 3D Analysis: 
 ### Working with data visualization in 3D...
 Building a 3D graphic using **R** and the **rgl package**. RGL is a 3D graphics package that produces a real-time interactive 3D plot. It allows to interactively rotate, zoom the graphics and select regions.
