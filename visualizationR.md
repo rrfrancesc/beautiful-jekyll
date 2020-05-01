@@ -18,7 +18,7 @@ At *ERSM Re* [(ERSM)](http://ersmgrupo.com), I'm doing a lot of reinsurance cons
 ### Using an area plot to study evolution along time...
 Building a 3D graphic using **R** and the **rgl package**. RGL is a 3D graphics package that produces a real-time interactive 3D plot. It allows to interactively rotate, zoom the graphics and select regions.
 
-<img src="https://i.ibb.co/RBcpJPn/Rplot10.png" width="700" height="1000">
+<img src="https://i.ibb.co/RBcpJPn/Rplot10.png" width="500" height="1000">
 * * *
 <br>
 
