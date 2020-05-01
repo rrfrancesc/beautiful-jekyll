@@ -4,16 +4,6 @@ title: Visualization in R
 subtitle: Designing interactive applications for Data Visualization...
 ---
 
-<style>
-.main-container {
-    max-width: 1100px;
-    margin-left: 150px;
-    margin-right: auto;
-    margin-top: 12px;
-    margin-bottom: 20px;
-}
-</style>
-
 <br>
 
 <img src="https://i.ibb.co/p0sQxV1/R.png" width="150">
@@ -47,7 +37,7 @@ With the **purrr** package one can make n plots at the same time with data comin
 
 # egg::ggarrange(plots=list(plot[[1]],plot[[2]],plot[[3]]), ncol=1)
 ```
-The result is a clear data visualization in a few lines of code, using the **tidyverse" packages!! 
+The result is a clear data visualization in a few lines of code, using the **tidyverse** packages!! 
 
 <img src="https://i.ibb.co/RBcpJPn/Rplot10.png" width="630" height="700">
 * * *
