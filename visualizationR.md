@@ -146,6 +146,6 @@ I've also used the **rgdal** package to import shapefiles and used the library *
 ```
 The result is a clear data visualization in a few lines of code, using to prepare data the **tidyverse** packages. 
 
-<img src="https://i.ibb.co/1stgMCh/local.png" width="800" height="700">
+<img src="https://i.ibb.co/1stgMCh/local.png" width="820" height="700">
 * * *
 <br>
