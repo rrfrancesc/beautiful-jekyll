@@ -109,3 +109,43 @@ sectors = gaugeSectors(success = c(7.5, 20), warning = c(2.5, 7.5), danger = c(-
 <img src="https://i.ibb.co/938MgZF/gauge-1.png" width="900">
 * * *
 <br>
+
+## geom_polygon() from ggplot2: 
+### Using a map plot to compare differencies between places... 
+
+I've also used the **rgdal** package to import shapefiles and used the library **broom** to convert shapefiles into the data frame structure I need.
+
+```{r}
+# local_plot%>%
+  ggplot(aes(x=long_c, y = lat_c, group = group))+
+  geom_polygon(aes(fill=brks), color = "white", size = 0.1)+
+  geom_path(data = canaries_line2,                # Line to separate the Canary Islands
+            aes(x=long, y = lat, group = NULL), 
+            color = "grey40", alpha = 0.7) + 
+  scale_fill_manual(                              # Adding the color palette and setting how I want the scale to look like
+    values = rev(pal),                            # I use rev so that red is for lowest values 
+    breaks = rev(brks_scale),
+    name = "Renta media",
+    drop = FALSE,
+    labels = labels_scale,
+    guide = guide_legend(direction = "horizontal",
+                         keyheight = unit(2, units = "mm"),
+                         keywidth = unit(50 / length(labels), units = "mm"),
+                         title.position = 'top',
+                         title.hjust = 0.5,
+                         label.hjust = 1,
+                         nrow = 1,
+                         byrow = T,
+                         reverse = T,
+                         label.position = "bottom"))+
+  labs(title="La brecha territorial en Espana",
+       subtitle="Renta relativa por municipio con respecto a la renta media nacional, 2016",
+       caption = "Ariane Aumaitre - Datos: INE")+
+  theme_ari_maps() +
+  ggsave("local.png", height = 5, width = 6)
+```
+The result is a clear data visualization in a few lines of code, using to prepare data the **tidyverse** packages. 
+
+<img src="https://i.ibb.co/1stgMCh/local.png" width="700" height="700">
+* * *
+<br>
