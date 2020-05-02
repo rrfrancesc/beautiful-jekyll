@@ -7,7 +7,6 @@ layout: null
 /* --- General --- */
 
 body {
-  max-width: 1500px;
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 18px;
   color: #404040;
@@ -56,7 +55,6 @@ hr.small {
 }
 
 .main-content {
-  max-width: 900px;
   padding-top: 80px;
 }
 @media only screen and (min-width: 768px) {
