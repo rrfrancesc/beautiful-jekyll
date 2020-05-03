@@ -1,0 +1,36 @@
+---
+layout: post
+title: COVID_19 Análisi por CCAA en España
+subtitle: Compararando evolución diaria de las CCAA en Fallecidos e Ingresados en UCI
+image: /img/home.jpg
+tags: [R,shiny,covid]
+---
+
+A new APP using the Shiny package in R for interactive data analytics and visualization. This software can help any insurance Company to visualizace its position in the Property insurance market. The goal here is optimize your pricing skills.  
+
+As a **R-Shiny developer** [(shiny)](http://shiny.rstudio.com/tutorial/) I've created several apps, some of them are a *powerful interactive tool* to optimize the **Reinsurance** of a Company.
+
+I've been working with the **tidyverse** packages for data manipulation and using **ggplot2** and **plotly** for an optimal data visualization. 
+
+This App wants to be an useful interactive tool for the Companies in order to optimize their **Pricing Models**. 
+
+### HOME Insurance Pricing Optimization
+**Some images from this app:**
+
+#### First, filter your data...
+![home1](https://i.ibb.co/x5jdm81/regions.png)
+<br>
+![home2](https://i.ibb.co/2tNJqKK/regions-x-millon.png)
+* * *
+#### Results Visualization...
+![home3](https://i.ibb.co/M8PPjtf/plot-evo-cat.png)
+<br>
+![home4](https://i.ibb.co/gtzpVLM/plot-evo-ccaa.png)
+
+* * *
+
+#### GIF to see how it works...
+![Alt Text]( https://imgur.com/a/Gwsdc0N.gif)
+<img src="https://imgur.com/a/Gwsdc0N.gif" width="1300" height="800" />
+
+#### Feel free to contact me if you need any help for your Company...
