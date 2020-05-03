@@ -1,6 +1,6 @@
 ---
 layout: post
-title: COVID_19 Análisi por CCAA en España
+title: COVID_19 Análisis por CC.AA. en España
 subtitle: Compararando evolución diaria de las CCAA en Fallecidos e Ingresados en UCI
 image: /img/home.jpg
 tags: [R,shiny,covid]
@@ -31,6 +31,7 @@ This App wants to be an useful interactive tool for the Companies in order to op
 
 #### GIF to see how it works...
 ![Alt Text]( https://imgur.com/a/Gwsdc0N.gif)
+
 <img src="https://imgur.com/a/Gwsdc0N.gif" width="1300" height="800" />
 
 #### Feel free to contact me if you need any help for your Company...
