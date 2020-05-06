@@ -95,7 +95,7 @@ img::-moz-selection {
 }
 
 img {
-  max-width: 140%;
+  max-width: 125%;
 }
 
 .disqus-comments {
@@ -672,6 +672,7 @@ table tr td :last-child {
 pre {
   font-size: 14px;
   line-height: 1.5em;
+  width: 900px;
 }
 pre code {
   white-space: pre;
@@ -698,7 +699,6 @@ td.code pre {
   border-style: solid;
   border-color: #444;
   border-radius: 0;
-  width: 900px;
 }
 td.gutter {
   padding-top: 3px;
