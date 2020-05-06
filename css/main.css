@@ -59,7 +59,7 @@ hr.small {
   padding-top: 80px;
 }
 
-@media only screen and (min-width: 1768px) {
+@media only screen and (min-width: 768px) {
   .main-content {
     padding-top: 130px;
   }
@@ -94,7 +94,7 @@ img::-moz-selection {
 }
 
 img {
-  max-width: 125%;
+  max-width: 225%;
 }
 
 .disqus-comments {
