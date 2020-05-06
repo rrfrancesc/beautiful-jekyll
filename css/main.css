@@ -282,12 +282,6 @@ img {
   }
 }
 
-@media (min-width: 768px)
-.navbar-right {
-    float: right!important;
-    margin-right: -100px;
-}
-
 
 /* --- Footer --- */
 
