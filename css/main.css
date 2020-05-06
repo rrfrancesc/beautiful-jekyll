@@ -94,7 +94,7 @@ img::-moz-selection {
 }
 
 img {
-  max-width: 150%;
+  max-width: 140%;
 }
 
 .disqus-comments {
@@ -369,10 +369,10 @@ footer .theme-by {
 }
 .post-entry-container {
   display: inline-block;
-  width: 100%;
+  width: 120%;
 }
 .post-entry {
-  width: 100%;
+  width: 120%;
 }
 .post-image {
   float: right;
@@ -434,7 +434,7 @@ footer .theme-by {
 @media only screen and (max-width: 500px) {
   .post-image, .post-image img {
     height: 100px;
-    width: 100px;
+    width: 120px;
   }
 
   .post-image {
@@ -669,7 +669,7 @@ table tr td :last-child {
 /* --- Code blocks --- */
 
 pre {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.5em;
 }
 pre code {
@@ -682,6 +682,7 @@ pre.highlight, .highlight > pre, td.code pre {
   background-size: 3em 3em;
   background-position: 0px 10px;
   border-left: 7px solid #444;
+  width: 800px;
 }
 code table, code table td, code table th, code table tbody, code table tr,
 td.gutter pre {
