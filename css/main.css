@@ -98,7 +98,7 @@ img::-moz-selection {
 }
 
 img {
-  max-width: 125%;
+  max-width: 120%;
 }
 
 .disqus-comments {
