@@ -13,6 +13,19 @@ At *ERSM Re* [(ERSM)](http://ersmgrupo.com), I'm doing a lot of reinsurance cons
 
 <br>
 
+## Nice tool for an easy visualtization of any ranking: 
+### Video:: treemap using poltly package...
+```{r}
+plot_ly(data = plot_df,
+        type = "treemap",
+        values = ~total_deaths,
+        parents = ~parents, 
+        labels = ~countriesAndTerritories,
+        domain = list(column=0),
+        textinfo = "label+value+percent parent") %>% layout(title=list(text="Covid_19 Pandemic", x=0.06))
+```
+<iframe width="728" height="410" src="https://youtu.be/W3U0T6hCkew" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## geom_area() from ggplot2: 
 ### Using an area plot to study evolution along time... 
