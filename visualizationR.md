@@ -13,8 +13,11 @@ At *ERSM Re* [(ERSM)](http://ersmgrupo.com), I'm doing a lot of reinsurance cons
 
 <br>
 
-## Nice tool for an easy visualtization of any ranking: 
+## Nice tool for an easy ranking visualization: 
 ### Video: treemap using plotly package...
+
+In this plot, we can see the **cumulated number of Covid_19 deaths** at May, 7th. Use **plotly** package for great interactive visualizations, in this case, set argument type to *"treemap"* and enjoy a very intuitive presentation... 
+
 ```{r}
 plot_ly(data = plot_df,
         type = "treemap",
@@ -24,6 +27,7 @@ plot_ly(data = plot_df,
         domain = list(column=0),
         textinfo = "label+value+percent parent") %>% layout(title=list(text="Covid_19 Pandemic", x=0.06))
 ```
+<br>
 <iframe width="728" height="410" src="https://youtube.com/embed/W3U0T6hCkew" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 * * *
 <br>
