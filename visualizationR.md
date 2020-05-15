@@ -25,7 +25,8 @@ plot_ly(data = plot_df,
         textinfo = "label+value+percent parent") %>% layout(title=list(text="Covid_19 Pandemic", x=0.06))
 ```
 <iframe width="728" height="410" src="https://youtu.be/W3U0T6hCkew" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+* * *
+<br>
 
 ## geom_area() from ggplot2: 
 ### Using an area plot to study evolution along time... 
