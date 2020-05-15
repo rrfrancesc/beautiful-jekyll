@@ -14,7 +14,7 @@ At *ERSM Re* [(ERSM)](http://ersmgrupo.com), I'm doing a lot of reinsurance cons
 <br>
 
 ## Nice tool for an easy visualtization of any ranking: 
-### Video:: treemap using poltly package...
+### Video: treemap using plotly package...
 ```{r}
 plot_ly(data = plot_df,
         type = "treemap",
