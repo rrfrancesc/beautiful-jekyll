@@ -27,7 +27,6 @@ plot_ly(data = plot_df,
         domain = list(column=0),
         textinfo = "label+value+percent parent") %>% layout(title=list(text="Covid_19 Pandemic", x=0.06))
 ```
-<br>
 <iframe width="728" height="410" src="https://youtube.com/embed/W3U0T6hCkew" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 * * *
 <br>
