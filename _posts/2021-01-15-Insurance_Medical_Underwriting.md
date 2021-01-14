@@ -6,15 +6,20 @@ image: /img/medical-test.jpg
 tags: [R,shiny,insurance]
 ---
 
-A new APP using the Shiny package in R for interactive data analytics and visualization. This software can help any insurance Company to visualizace its position in the Property insurance market. The goal here is optimize your pricing skills.  
+In this post I want to share a new APP created using the **Shiny** package in R for underwriting medical risks. 
+This software helps the insurance Company to make interactive questions to evaluate the medical risks. So, questions depend on:
+- Insured Age
+- Insured Gender
+- Product & Coverages selected
+- Sum insured
+
+Finally, using **rmarkdown**, the user can download a PDF ready to sign, with all the Q&A and much more...
 
 As a **R-Shiny developer** [(shiny)](http://shiny.rstudio.com/tutorial/) I've created several apps, some of them are a *powerful interactive tool* to optimize the **Reinsurance** of a Company.
 
 I've been working with the **tidyverse** packages for data manipulation and using **ggplot2** and **plotly** for an optimal data visualization. 
 
-This App wants to be an useful interactive tool for the Companies in order to optimize their **Pricing Models**. 
-
-### HOME Insurance Pricing Optimization
+### Insurance Medical Underwriting
 **Some images from this app:**
 
 #### First, filter your data...
@@ -26,8 +31,7 @@ This App wants to be an useful interactive tool for the Companies in order to op
 ![home3](https://i.ibb.co/jkMJdwK/home-3.png)
 <br>
 ![home4](https://i.ibb.co/PQ0tDwr/home-4.png)
-<br>
-![home5](https://i.ibb.co/YZQhgXP/home-5.png)
+
 
 * * *
 
