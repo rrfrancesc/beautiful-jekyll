@@ -22,16 +22,16 @@ I've been working with the **tidyverse** packages for data manipulation and usin
 ### Insurance Medical Underwriting
 **Some images from this app:**
 
-#### First, filter your data...
-![home1](https://i.ibb.co/vhX1YXK/home-1.png)
-<br>
-![home2](https://i.ibb.co/R7BbLW4/home-2.png)
+#### First, enter personal info and select prodcut & coverage...
+![home1](https://i.ibb.co/PmkXcHP/Captura-2.png)
 * * *
-#### Results Visualization...
-![home3](https://i.ibb.co/jkMJdwK/home-3.png)
+#### Medical Questionaire...
+![home2](https://i.ibb.co/dQR0Hzk/Captura-3.png)
 <br>
-![home4](https://i.ibb.co/PQ0tDwr/home-4.png)
-
+![home3](https://i.ibb.co/T0fNCbz/Captura-4.png)
+* * *
+#### Results and PDF to sign
+![home4](https://i.ibb.co/yXRTPXW/Captura-5.png)
 
 * * *
 
