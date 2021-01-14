@@ -2,7 +2,7 @@
 layout: post
 title: Insurance Medical Underwriting
 subtitle: A Shiny App helping insurance companies improve risk underwriting
-image: /img/medical-test.jpg
+image: /img/medician.jpg
 tags: [R,shiny,insurance]
 ---
 
