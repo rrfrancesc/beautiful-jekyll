@@ -22,7 +22,7 @@ I've been working with the **tidyverse** packages for data manipulation and usin
 ### Insurance Medical Underwriting
 **Some images from this app:**
 
-#### First, enter personal info and select prodcut & coverage...
+#### First, enter personal info and select product & coverage...
 ![home1](https://i.ibb.co/PmkXcHP/Captura-2.png)
 * * *
 #### Medical Questionaire...
@@ -30,7 +30,7 @@ I've been working with the **tidyverse** packages for data manipulation and usin
 <br>
 ![home3](https://i.ibb.co/T0fNCbz/Captura-4.png)
 * * *
-#### Results and PDF to sign
+#### Results Q&A and PDF to sign
 ![home4](https://i.ibb.co/yXRTPXW/Captura-5.png)
 
 * * *
