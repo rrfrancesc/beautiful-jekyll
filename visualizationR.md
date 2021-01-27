@@ -33,6 +33,37 @@ plot_ly(data = plot_df,
 * * *
 <br>
 
+## Animated plot visualization: 
+### Video: Animate plot using ggplot2 and gganimate packages...
+
+Easy way to create an animated plot in **R**. Use **gganimate** package to animate your **ggplot** visualizations, in this case, just with 2 lines of code... 
+
+```{r}
+p <- data_1 %>%
+  ggplot(aes(x=Date,y=Balance, group=1)) + 
+  geom_line(size=1, aes(color=Direction)) + 
+  scale_fill_manual(values=c("red","green","white")) +
+  scale_color_manual(values=c("red","green","orange")) +
+  scale_y_continuous(labels=scales::comma_format()) +
+  labs(title="How Balance changes along time?",
+       subtitle = "Currency: Euros") +
+  theme_minimal() +
+  theme(legend.position="none", axis.title=element_text(size=18), 
+        plot.title=element_text(size=22), axis.text=element_text(size=15)) + 
+  geom_area(alpha=.25)
+
+p <- p + 
+  geom_point(aes(fill=Big_Move, group=seq_along(Date)),shape=21, size=4, color="gray50") +
+  geom_text(label=data_1$Label, vjust=-1, aes(group=seq_along(data_1$Label))) + 
+  transition_reveal(Date) 
+
+animate(p, fps=1, height=600, width=1100)
+```
+
+<iframe width="784" height="442" src="https://youtube.com/embed/l1llRde32W8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+* * *
+<br>
+
 ## geom_area() from ggplot2: 
 ### Using an area plot to study evolution along time... 
 
