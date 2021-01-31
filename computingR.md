@@ -64,7 +64,6 @@ p <- ggplot(data_1, aes(x = Age, fill = Gender,
         strip.text=element_text(size=18), axis.text=element_text(size=11), 
         panel.border=element_rect(color="gray85", fill=NA)) +
   labs(title = "Population Pyramid", subtitle="From 1950 to 2020", x = "Age", y = "\nPercent of population") +
-  # gganimate specific bits:
   geom_text(aes(x=max(Age), y=max(freq), label=as.factor(Date)), alpha=0.3, hjust=1, vjust=0.75, col="gray", size=8) +
   transition_states(as.factor(Date), state_length=50)
 ```
