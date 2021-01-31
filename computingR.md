@@ -14,6 +14,12 @@ At *ERSM Re* [(ERSM)](http://ersmgrupo.com), I'm doing a lot of reinsurance cons
 
 <br>
 
+## POPULATION PYRAMID ANUMATED PLOT: 
+### Pricing Computing risk premium...
+
+bUbdwCe2qts
+
+
 ## STOP LOSS Reinsurance: 
 ### Pricing Computing risk premium...
 *Parametric Model* using a **LOG NORMAL distribution** to fit the empiric data. Their two parameters are the mean and the sd.
