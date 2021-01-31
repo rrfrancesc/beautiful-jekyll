@@ -21,7 +21,7 @@ At *ERSM Re* [(ERSM)](http://ersmgrupo.com), I'm doing a lot of reinsurance cons
 Original data:
 head(data)
 | Index | Region |  Gender | Date | De_0_a_4 | De_05_a_9 | De_10_a_14 | De_15_a_19|  .... |
-| ------| ------ | ------- | ---- | -------- | --------- | ---------- | --------- | ------|
+| --------- | ------|
 |  256  | Africa | Female  | 1950 |   19129  |   14824   |   12918    |    11518  |       |
 |   257 | Africa | Female  | 1955 |   21773  |   16776   |   14196    |    12489  |       |
 |   258 | Africa | Female  | 1960 |   24786  |   19431   |   16075    |    13654  |       |
@@ -40,15 +40,16 @@ data_1 <- data %>%
   dplyr::mutate(freq = n / sum(n))
 ```
 Now, the data is ready for plotting...
- Region Gender  Date Age            n   freq
-   <fct>  <fct>  <int> <chr>      <int>  <dbl>
- 1 Africa Female  1950 De_0_a_4   19129 0.0840
- 2 Africa Female  1950 De_05_a_9  14824 0.0651
- 3 Africa Female  1950 De_10_a_14 12918 0.0567
- 4 Africa Female  1950 De_15_a_19 11518 0.0506
- 5 Africa Female  1950 De_20_a_24 10091 0.0443
- 6 Africa Female  1950 De_25_a_29  8668 0.0381
+ |Region |Gender  |  Date| Age        |    n|   freq|
+ |-------|--------|------|------------|-----|-------| 
+ | Africa| Female | 1950 | De_0_a_4   |19129| 0.0840|
+ | Africa| Female | 1950 | De_05_a_9  |14824| 0.0651|
+ | Africa| Female | 1950 | De_10_a_14 |12918| 0.0567|
+ | Africa| Female | 1950 | De_15_a_19 |11518| 0.0506|
+ | Africa| Female | 1950 | De_20_a_24 |10091| 0.0443|
+ | Africa| Female | 1950 | De_25_a_29 | 8668| 0.0381|
 
+<br>
 ```{r}
 p <- ggplot(data_1, aes(x = Age, fill = Gender,
                  y = ifelse(test = Gender == "Male", yes = -freq, no = freq))) + 
@@ -65,7 +66,7 @@ p <- ggplot(data_1, aes(x = Age, fill = Gender,
   # gganimate specific bits:
   geom_text(aes(x=max(Age), y=max(freq), label=as.factor(Date)), alpha=0.3, hjust=1, vjust=0.75, col="gray", size=8) +
   transition_states(as.factor(Date), state_length=50)
-'''   
+``` 
 
 <iframe width="784" height="442" src="https://youtube.com/embed/bUbdwCe2qts" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
