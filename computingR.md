@@ -21,7 +21,7 @@ At *ERSM Re* [(ERSM)](http://ersmgrupo.com), I'm doing a lot of reinsurance cons
 Original data:
 head(data)
 | Index | Region |  Gender | Date | De_0_a_4 | De_05_a_9 | De_10_a_14 | De_15_a_19|  .... |
-| --------- | ------|
+| ----- | -------| --------|------|----------|-----------|------------|-----------|-------|
 |  256  | Africa | Female  | 1950 |   19129  |   14824   |   12918    |    11518  |       |
 |   257 | Africa | Female  | 1955 |   21773  |   16776   |   14196    |    12489  |       |
 |   258 | Africa | Female  | 1960 |   24786  |   19431   |   16075    |    13654  |       |
