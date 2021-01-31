@@ -15,9 +15,19 @@ At *ERSM Re* [(ERSM)](http://ersmgrupo.com), I'm doing a lot of reinsurance cons
 <br>
 
 ## POPULATION PYRAMID ANUMATED PLOT: 
-### Pricing Computing risk premium...
+### Video: data manipulation with **tydiverse** packages to get data ready for plotting ...
 
-bUbdwCe2qts
+Use **pivot_longer()** to get in the same column all the values from different years... 
+
+```{r}
+
+```
+
+
+<iframe width="784" height="442" src="https://youtube.com/embed/bUbdwCe2qts" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+* * *
+
+
 
 
 ## STOP LOSS Reinsurance: 
