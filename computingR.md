@@ -13,22 +13,63 @@ I began using **R** for data visualisation, and, over time, it has become integr
 At *ERSM Re* [(ERSM)](http://ersmgrupo.com), I'm doing a lot of reinsurance consulting work in **R**. Here you can see some examples of the projects developed.
 
 <br>
+<br>
 
 ## POPULATION PYRAMID ANUMATED PLOT: 
 ### Video: data manipulation with **tydiverse** packages to get data ready for plotting ...
 
-Use **pivot_longer()** to get in the same column all the values from different years... 
+Original data:
+head(data)
+  Index Region Country_code Gender Date De_0_a_4 De_05_a_9 De_10_a_14 De_15_a_19 De_20_a_24 De_25_a_29 De_30_a_34 De_35_a_39 ....
+1   256 Africa          903 Female 1950    19129     14824      12918      11518      10091       8668       7428       6301
+2   257 Africa          903 Female 1955    21773     16776      14196      12489      11056       9623       8224       7017
+3   258 Africa          903 Female 1960    24786     19431      16075      13654      11984      10615       9193       7804
+4   259 Africa          903 Female 1965    28271     22415      18794      15555      13136      11510      10172       8769
+5   260 Africa          903 Female 1970    32033     25841      21732      18208      15041      12674      11063       9695
+6   261 Africa          903 Female 1975    36719     29543      25136      21172      17503      14398      12164      10610
+
+Use **pivot_longer()** to get in the same column all the values from different ages... 
+```{r}
+data_1 <- data %>%
+  dplyr::filter(Region %in% c("Africa","Asia","Europe")) %>%
+  tidyr::pivot_longer(cols=-c(Index,Region,Country_code,Gender,Date), names_to="Age", values_to="Population") %>%
+  dplyr::group_by(Region, Gender, Date, Age) %>%
+  dplyr::summarise(n = sum(Population)) %>%
+  dplyr::ungroup(Gender) %>%
+  dplyr::mutate(freq = n / sum(n))
+```
+Now, the data is ready for plotting...
+ Region Gender  Date Age            n   freq
+   <fct>  <fct>  <int> <chr>      <int>  <dbl>
+ 1 Africa Female  1950 De_0_a_4   19129 0.0840
+ 2 Africa Female  1950 De_05_a_9  14824 0.0651
+ 3 Africa Female  1950 De_10_a_14 12918 0.0567
+ 4 Africa Female  1950 De_15_a_19 11518 0.0506
+ 5 Africa Female  1950 De_20_a_24 10091 0.0443
+ 6 Africa Female  1950 De_25_a_29  8668 0.0381
 
 ```{r}
-
-```
-
+p <- ggplot(data_1, aes(x = Age, fill = Gender,
+                 y = ifelse(test = Gender == "Male", yes = -freq, no = freq))) + 
+  geom_bar(stat="identity", alpha=.65) +
+  scale_y_continuous(labels=scales::percent_format(accuracy=1)) +
+  facet_wrap(~Region) +
+  scale_fill_viridis_d(option="D") +
+  coord_flip() + 
+  theme_minimal() +
+  theme(panel.spacing=unit(2,"lines"), axis.title=element_text(size=18), plot.title=element_text(size=22), 
+        strip.text=element_text(size=18), axis.text=element_text(size=11), 
+        panel.border=element_rect(color="gray85", fill=NA)) +
+  labs(title = "Population Pyramid", subtitle="From 1950 to 2020", x = "Age", y = "\nPercent of population") +
+  # gganimate specific bits:
+  geom_text(aes(x=max(Age), y=max(freq), label=as.factor(Date)), alpha=0.3, hjust=1, vjust=0.75, col="gray", size=8) +
+  transition_states(as.factor(Date), state_length=50)
+'''   
 
 <iframe width="784" height="442" src="https://youtube.com/embed/bUbdwCe2qts" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br>
 * * *
-
-
-
+<br>
 
 ## STOP LOSS Reinsurance: 
 ### Pricing Computing risk premium...
@@ -42,6 +83,7 @@ E <- function (yinf,ysup,par1,par2,premium) {as.numeric(integrate(function(x) (x
 <br>
 
 <img src="https://i.ibb.co/DLJKtBW/SL-2.png" width="600">
+<br>
 * * *
 <br>
 
@@ -55,6 +97,7 @@ The *MackChainLadder model* uses the chain ladder approach for predicting ultima
 The *BootChainLadder* is a model that provides a predicted distribution for the IBNR values for a claims triangle. First, the development factors are calculated and then they are used in a backwards recursion to predict values for the past loss triangle. Then the predicted values and the actual values are used to calculate Pearson residuals. Using the adjusted residuals and the predicted losses from before, the model solves for the actual losses in the Pearson formula and forms a new loss triangle. The steps for predicting past losses and residuals are then repeated for this new triangle. After that, the model uses chain ladder ratios to predict the future losses, calculates the ultimate and IBNR values like in the previous Mack model. This cycle is performed N times. The IBNR for each origin period is calculated from each triangle (N times) and used to form a predictive distribution, from which summary statistics are obtained such as mean, prediction error and quantiles.
 
 <img src="https://i.ibb.co/Kqr96bc/Booststrap-Chain-Ladder.png" width="660">
+<br>
 * * *
 <br>
 
@@ -69,5 +112,6 @@ The *ReIns package* contains implementations of:
 It's very useful for fitting claims distributions. One usually wants a fit for the whole distribution. ReIns package proposes the splicing of a Mixed Erlang (ME) distribution for the body and an extreme value distribution, i.e. Pareto or GPD, for the tail. Also, it provides some tools to see how well the spliced distribution fits the data:
 
 <img src="https://i.ibb.co/X3PTts9/ReIns1.png" width="800">
+<br>
 * * *
 <br>
