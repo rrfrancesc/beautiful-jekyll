@@ -16,7 +16,7 @@ At *ERSM Re* [(ERSM)](http://ersmgrupo.com), I'm doing a lot of reinsurance cons
 <br>
 
 ## POPULATION PYRAMID ANUMATED PLOT: 
-### Video: data manipulation with **tydiverse** packages to get data ready for plotting ...
+#### Video: data manipulation with **tydiverse** packages to get data ready for plotting ...
 
 Original data:
 head(data) 
@@ -72,7 +72,7 @@ p <- ggplot(data_1, aes(x = Age, fill = Gender,
   transition_states(as.factor(Date), state_length=50)
 ```
 <br>
-### Video of the animated plot:
+#### Video of the animated plot:
 <iframe width="784" height="442" src="https://youtube.com/embed/bUbdwCe2qts" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
 * * *
