@@ -20,13 +20,14 @@ At *ERSM Re* [(ERSM)](http://ersmgrupo.com), I'm doing a lot of reinsurance cons
 
 Original data:
 head(data)
-  Index Region Country_code Gender Date De_0_a_4 De_05_a_9 De_10_a_14 De_15_a_19 De_20_a_24 De_25_a_29 De_30_a_34 De_35_a_39 ....
-1   256 Africa          903 Female 1950    19129     14824      12918      11518      10091       8668       7428       6301
-2   257 Africa          903 Female 1955    21773     16776      14196      12489      11056       9623       8224       7017
-3   258 Africa          903 Female 1960    24786     19431      16075      13654      11984      10615       9193       7804
-4   259 Africa          903 Female 1965    28271     22415      18794      15555      13136      11510      10172       8769
-5   260 Africa          903 Female 1970    32033     25841      21732      18208      15041      12674      11063       9695
-6   261 Africa          903 Female 1975    36719     29543      25136      21172      17503      14398      12164      10610
+| Index | Region |  Gender | Date | De_0_a_4 | De_05_a_9 | De_10_a_14 | De_15_a_19|  .... |
+| ------| ------ | ------- | ---- | -------- | --------- | ---------- | --------- | ------|
+|  256  | Africa | Female  | 1950 |   19129  |   14824   |   12918    |    11518  |       |
+|   257 | Africa | Female  | 1955 |   21773  |   16776   |   14196    |    12489  |       |
+|   258 | Africa | Female  | 1960 |   24786  |   19431   |   16075    |    13654  |       |
+|   259 | Africa | Female  | 1965 |   28271  |   22415   |   18794    |    15555  |       |
+|   260 | Africa | Female  | 1970 |   32033  |   25841   |   21732    |    18208  |       |
+|   261 | Africa | Female  | 1975 |   36719  |   29543   |   25136    |    21172  |       |
 
 Use **pivot_longer()** to get in the same column all the values from different ages... 
 ```{r}
