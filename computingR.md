@@ -19,7 +19,8 @@ At *ERSM Re* [(ERSM)](http://ersmgrupo.com), I'm doing a lot of reinsurance cons
 ### Video: data manipulation with **tydiverse** packages to get data ready for plotting ...
 
 Original data:
-head(data)
+head(data) 
+
 | Index | Region |  Gender | Date | De_0_a_4 | De_05_a_9 | De_10_a_14 | De_15_a_19|  .... |
 | ----- | -------| --------|------|----------|-----------|------------|-----------|-------|
 |  256  | Africa | Female  | 1950 |   19129  |   14824   |   12918    |    11518  |       |
@@ -39,7 +40,8 @@ data_1 <- data %>%
   dplyr::ungroup(Gender) %>%
   dplyr::mutate(freq = n / sum(n))
 ```
-Now, the data is ready for plotting...
+Now, the data is ready for plotting... 
+
  |Region |Gender  |  Date| Age        |    n|   freq|
  |-------|--------|------|------------|-----|-------| 
  | Africa| Female | 1950 | De_0_a_4   |19129| 0.0840|
