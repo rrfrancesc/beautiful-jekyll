@@ -15,7 +15,7 @@ At *ERSM Re* [(ERSM)](http://ersmgrupo.com), I'm doing a lot of reinsurance cons
 <br>
 <br>
 
-## POPULATION PYRAMID ANUMATED PLOT: 
+## POPULATION PYRAMID ANIMATED PLOT: 
 #### Video: data manipulation with **tydiverse** packages to get data ready for plotting ...
 
 Original data:
@@ -30,7 +30,7 @@ head(data)
 |   260 | Africa | Female  | 1970 |   32033  |   25841   |   21732    |    18208  |       |
 |   261 | Africa | Female  | 1975 |   36719  |   29543   |   25136    |    21172  |       |
 
-Use **pivot_longer()** to get in the same column all the values from different ages... 
+Using **pivot_longer()** from **tidyr** to get in the same column all the values from different ages and computing the frequencies for each date and region.
 ```{r}
 data_1 <- data %>%
   dplyr::filter(Region %in% c("Africa","Asia","Europe")) %>%
@@ -40,7 +40,7 @@ data_1 <- data %>%
   dplyr::ungroup(Gender) %>%
   dplyr::mutate(freq = n / sum(n))
 ```
-Now, the data is ready for plotting... 
+Now, the data is clean and ready for plotting... 
 
  |Region |Gender  |  Date| Age        |    n|   freq|
  |-------|--------|------|------------|-----|-------| 
