@@ -12,7 +12,7 @@ At *ERSM Re* [(ERSM)](http://ersmgrupo.com), I'm doing a lot of reinsurance cons
 <br>
 
 <br>
- ! [](/img/animated_map_plot.gif)
+ ! [](img/animated_map_plot.gif)
  
 
 
