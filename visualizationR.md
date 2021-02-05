@@ -12,6 +12,9 @@ At *ERSM Re* [(ERSM)](http://ersmgrupo.com), I'm doing a lot of reinsurance cons
 <br>
 
 <br>
+ ! [](/img/animated_map_plot.gif)
+ 
+
 
 ## Nice tool for an easy ranking visualization: 
 ### Video: treemap using plotly package...
