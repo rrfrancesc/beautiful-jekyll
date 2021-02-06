@@ -4,12 +4,12 @@ title: Visualization in R
 subtitle: Designing interactive applications for Data Visualization...
 ---
 
-<br>
-
 <img src="https://i.ibb.co/p0sQxV1/R.png" width="150">
 
 At *ERSM Re* [(ERSM)](http://ersmgrupo.com), I'm doing a lot of reinsurance consulting work in **R**. Here you can see some examples of the projects developed.
 <br>
+<br>
+
 
 ## gganimate package 
 ### This package make your ggplot visualizations animated in just a few lines of code...
