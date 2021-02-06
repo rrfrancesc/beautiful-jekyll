@@ -11,10 +11,16 @@ subtitle: Designing interactive applications for Data Visualization...
 At *ERSM Re* [(ERSM)](http://ersmgrupo.com), I'm doing a lot of reinsurance consulting work in **R**. Here you can see some examples of the projects developed.
 <br>
 
-<br>
- ![animated_map](img/animated_map_plot.gif)
- 
+## gganimate package 
+### This package make your ggplot visualizations animated in just a few lines of code...
 
+It's an easy way to create an animated plot in **R**. In this example, the **gif** shows *the Death weekly evolution from 2019 till now*, for the different resgions in Spain. 
+Pay attention to the weeks 13,14 and 15 of 2020; when **Covid_19** caught all us completely unawares.
+
+![animated_map](img/animated_map_plot.gif)
+
+* * * 
+<br>
 
 ## Nice tool for an easy ranking visualization: 
 ### Video: treemap using plotly package...
@@ -30,7 +36,6 @@ plot_ly(data = plot_df,
         domain = list(column=0),
         textinfo = "label+value+percent parent") %>% layout(title=list(text="Covid_19 Pandemic", x=0.06))
 ```
-
 
 <iframe width="784" height="442" src="https://youtube.com/embed/W3U0T6hCkew" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 * * *
