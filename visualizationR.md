@@ -92,7 +92,7 @@ From *ggplot2*, **geom_area** is great to compare positions along time. In this 
 ```
 The result is a clear data visualization in a few lines of code, using the **tidyverse** packages!! 
 
-<img src="https://i.ibb.co/RBcpJPn/Rplot10.png" width="630" height="700">
+<img src="https://i.ibb.co/RBcpJPn/Rplot10.png" width="500" height="700">
 * * *
 <br>
 
