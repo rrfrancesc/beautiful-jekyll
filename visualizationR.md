@@ -88,11 +88,12 @@ From *ggplot2*, **geom_area** is great to compare positions along time. In this 
     ggplot2::scale_x_date(breaks = unique(data_3$Fecha_Estudio)) + 
     ggplot2::theme(axis.text.x=element_text(colour="gray30",size=9,angle=45, hjust=1)) })
 
-# egg::ggarrange(plots=list(plot[[1]],plot[[2]],plot[[3]]), ncol=1)
+# egg::ggarrange(plots=list(plot[[1]]), ncol=1)
 ```
 The result is a clear data visualization in a few lines of code, using the **tidyverse** packages!! 
 
-<img src="https://i.ibb.co/RBcpJPn/Rplot10.png" width="500" height="700">
+![r_area_plot(img/Area_r_plot.png)
+
 * * *
 <br>
 
