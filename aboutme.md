@@ -14,6 +14,8 @@ subtitle: What I'm doing...
 
 <i class="fa fa-heart"></i> &nbsp; I'm addicted to cycling and travelling as much as I can...
 
+<i class="fa fa-bicycle"></i> &nbsp; Also, I'm a pilot in the **Cycling Without Age** movement [(Cycling)](https://cyclingwithoutage.org/).
+
 <i class="fa fa-area-chart"></i> &nbsp; Nowadays, in my professional life, I am really interested in:
 * Predictive Modeling
 * Pricing
